@@ -46,32 +46,32 @@ footer div {
   height: 600px;
   line-height: 600px;
   background-color: rgba(20, 46, 9, 0.555);
-}
-main > div {
+ }
+ main > div {
   width: 380px;
   height: 200px;
   line-height: 200px;
   background-color: mediumturquoise;
-}
-main > div:nth-of-type(3) {
+ }
+ main > div:nth-of-type(3) {
   background-color: rgb(104, 104, 207);
-}
-section div:first-child {
+ }
+ section div:first-child {
   background-color: rgb(251, 255, 0);
-}
-section div:nth-of-type(2) {
+ }
+ section div:nth-of-type(2) {
   background-color: rgb(94, 255, 20);
-}
-section div:nth-of-type(3) {
+ }
+ section div:nth-of-type(3) {
   background-color: rgb(146, 40, 81);
-}
-section div:last-of-type {
+ }
+ section div:last-of-type {
   background-color: rgb(201, 109, 230);
-}
-footer div {
+ }
+ footer div {
   width: 760px;
   height: 150px;
   line-height: 150px;
   background-color: rgb(23, 151, 255);
-}
+ }
 }
