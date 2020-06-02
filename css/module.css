@@ -1,0 +1,77 @@
+header div {
+  height: 75px;
+  line-height: 75px;
+  background-color: rgba(44, 219, 219, 0.425);
+}
+main > div:first-child{
+  height: 150px;
+  line-height: 150px;
+  background-color: rgb(176, 110, 238);
+}
+main > div {
+  background-color: coral;
+  height: 125px;
+  line-height: 125px;
+}
+main > div:nth-of-type(3) {
+  background-color: rgb(163, 238, 25);
+}
+section div:first-child {
+  background-color: darkorange;
+}
+section div:nth-of-type(2) {
+  background-color: deeppink;
+}
+section div:nth-of-type(3) {
+  background-color: rgb(40, 146, 123);
+}
+section div:last-of-type {
+  background-color: rgb(255, 0, 85);
+}
+footer div {
+  height: 80px;
+  line-height: 80px;
+  background-color: mediumpurple;
+}
+
+@media only screen and (min-width: 768px) {
+ header div {
+   width: 960px;
+   height: 100px;
+   line-height: 100px;
+   background-color: mediumseagreen;
+ }
+ main > div:first-child{
+  width: 200px;
+  height: 600px;
+  line-height: 600px;
+  background-color: rgba(20, 46, 9, 0.555);
+}
+main > div {
+  width: 380px;
+  height: 200px;
+  line-height: 200px;
+  background-color: mediumturquoise;
+}
+main > div:nth-of-type(3) {
+  background-color: rgb(104, 104, 207);
+}
+section div:first-child {
+  background-color: rgb(251, 255, 0);
+}
+section div:nth-of-type(2) {
+  background-color: rgb(94, 255, 20);
+}
+section div:nth-of-type(3) {
+  background-color: rgb(146, 40, 81);
+}
+section div:last-of-type {
+  background-color: rgb(201, 109, 230);
+}
+footer div {
+  width: 760px;
+  height: 150px;
+  line-height: 150px;
+  background-color: rgb(23, 151, 255);
+}
+}
