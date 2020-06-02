@@ -1,0 +1,16 @@
+div {
+  float: left;
+  width: 480px;
+}
+section div {
+  height: 250px;
+  line-height: 250px;
+  width: 240px;
+}
+@media only screen and (min-width: 768px) {
+  section div {
+    height: 250px;
+    line-height: 250px;
+    width: 190px;
+  }
+}
