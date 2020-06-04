@@ -1,16 +1,25 @@
-div {
-  float: left;
-  width: 480px;
+main {
+  max-width: 480px;
+  margin: auto;
+  font-size: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 75px 150px 125px 125px 250px 250px 80px;
 }
-section div {
-  height: 250px;
-  line-height: 250px;
-  width: 240px;
+
+@media only screen and (min-width: 650px ) {
+  main {
+    max-width: 760px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 175px 200px 250px 150px;
+  }
 }
-@media only screen and (min-width: 768px) {
-  section div {
-    height: 250px;
-    line-height: 250px;
-    width: 190px;
+
+@media only screen and (min-width: 960px) {
+  main {
+    max-width: 960px;
+    grid-template-columns: 200px 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 250px 150px;
   }
 }
